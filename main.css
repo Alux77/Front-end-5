@@ -1,0 +1,58 @@
+.container
+{
+  margin: 0 auto;
+  width: 750px;
+}
+
+header
+{
+  background-color: black;
+}
+
+#logo
+{
+  display: block;
+  margin: 0 auto;
+}
+
+.main-title
+{
+  text-align: center;
+}
+
+.feature
+{
+  column-count: 2;
+  -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+  column-width: 100px;
+
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#pricing
+{
+  /*text-align: center;*/
+  column-count: 3;
+  -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+  -moz-column-width: 100px; /* Firefox */  
+  column-width: 100px;
+}
+
+#about
+{
+  text-align: justify;
+}
+
+.footer
+{
+  text-align: center;
+  font-weight: bold;
+}
+/*
+h5
+{
+  float: none !important;
+  margin: auto;
+  text-align: center;
+}*/
